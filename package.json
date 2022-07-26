@@ -1,0 +1,8 @@
+{
+  "name": "cells-client-extended",
+  "version": "0.0.3",
+  "module": "src/index.js",
+  "devDependencies": {
+    "bun-types": "latest"
+  }
+}
