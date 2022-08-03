@@ -34,7 +34,7 @@ export const parseTable = (table: string, fallbackKey: string = 'unknown') => {
 		.split('|')
 		.map(heading => heading.trim().toLowerCase())
 		.slice(1, -1);
-	const items: unknown[] = [];
+	const items: Record<string, string>[] = [];
 
 	for (let i = 0; i < rows.length; i++) {
 		const cols = rows[i]
