@@ -1,0 +1,1 @@
+import{run}from"./utils.js";export const ls=args=>run("cec",["ls",args.join("/")]);export const scp=(from,to)=>run("cec",["scp",from.join("/"),to.join("/")])
